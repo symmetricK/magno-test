@@ -14,6 +14,10 @@
 
 - to start experiment with LEDs 
    <br> `roslaunch magno_test shuffle_exp.launch` <br><br>
+- to see real-time plotting
+      `cd python_packages/magno_analysis/real_time_plot_for_mag`
+      `python3 mag_rt_plot.py`
+
 The above launch file starts file writing node, twyg_control.py, **AND** the led control node, RAND_LED_node.py
 **Note that fly name is set in the launch file**
    <br> File-writing stops at end of experiment.
